@@ -1,7 +1,7 @@
 //! Accounts structs for Raydium AMM / Liquidity.
 use anchor_lang::prelude::*;
 use anchor_spl::associated_token::AssociatedToken;
-use anchor_spl::token::Token;
+use anchor_spl::token::{Token, TokenAccount};
 /// Accounts for an `Initialize2` instruction.
 #[derive(Accounts)]
 pub struct Initialize2<'info> {
